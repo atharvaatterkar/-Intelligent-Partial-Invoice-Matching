@@ -1,6 +1,5 @@
-# Project Name
+# Partial Invoice Matching
 
-![Project Logo](link-to-your-logo.png) *(Optional: Add a logo if available)*
 
 ## 📌 Description
 The solution uses AI/ML and NLP to match invoices, even with partial or inconsistent data. It assigns confidence scores to uncertain matches and improves accuracy through continuous self-learning from user corrections.
