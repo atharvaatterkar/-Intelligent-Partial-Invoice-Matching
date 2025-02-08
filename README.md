@@ -25,9 +25,7 @@ pip install -r requirements.txt  # For Python projects
 ## 🛠 Usage
 1. Datasets headers must be set to 'invoice1' (dataset1), 'invoice2'(dataset2).
 2. Run all cells of [invoice_matching.ipynb](invoice_matching.ipynb)
-```sh
-python app.py  # Example usage for Python
-```
+3. Run ```python app.py``` in terminal.
 
 ## 🤝 Contributing
 Contributions are welcome! Follow these steps:
