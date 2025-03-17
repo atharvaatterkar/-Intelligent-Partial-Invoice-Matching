@@ -19,7 +19,6 @@
       rel="stylesheet"
     />
 
-    <
     <link href="../static/css/bootstrap.min.css" rel="stylesheet" />
     <link href="../static/css/bootstrap-icons.css" rel="stylesheet" />
     <link href="../static/css/apexcharts.css" rel="stylesheet" />
@@ -223,7 +222,7 @@
               aria-expanded="false"
             >
               <img
-                src="images/medium-shot-happy-man-smiling.png"
+                src="static/images/medium-shot-happy-man-smiling.png"
                 class="profile-image img-fluid"
                 alt=""
               />
@@ -232,7 +231,7 @@
               <li>
                 <div class="dropdown-menu-profile-thumb d-flex">
                   <img
-                    src="images/medium-shot-happy-man-smiling.png"
+                    src="static/images/medium-shot-happy-man-smiling.png"
                     class="profile-image img-fluid me-3"
                     alt=""
                   />
@@ -257,7 +256,7 @@
               </li>
 
               <li>
-                <a class="dropdown-item" href="help-center.html">
+                <a class="dropdown-item" href="help.html">
                   <i class="bi-question-circle me-2"></i> Help
                 </a>
               </li>
@@ -319,7 +318,7 @@
 
               <li class="nav-item">
                 <form
-                  action="{{ url_for(Ssetting') }}"
+                  action="{{ url_for('setting') }}"
                   method="POST"
                   style="display: inline"
                 >
@@ -329,7 +328,7 @@
                 </form>
               </li>
 
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <form
                   action="{{ url_for('help') }}"
                   method="POST"
@@ -339,7 +338,7 @@
                     <i class="bi-question-circle me-2"></i> Help Center
                   </button>
                 </form>
-              </li>
+              </li> -->
 
               <li class="nav-item featured-box mt-lg-5 mt-4 mb-4">
                 <div class="file-upload-section mb-3">
@@ -467,7 +466,7 @@
 
                       <div class="input-group mb-1">
                         <img
-                          src="images/profile/senior-man-white-sweater-eyeglasses.png"
+                          src="static/images/profile/young-beautiful-woman-pink-warm-sweater.jpg"
                           class="profile-image img-fluid"
                           alt=""
                         />
